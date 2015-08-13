@@ -16,3 +16,4 @@
 !/log/.keep
 /tmp
 config/locales/secrets.yml
+config/secrets.yml
