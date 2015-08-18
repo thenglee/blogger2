@@ -16,3 +16,7 @@
 !/log/.keep
 /tmp
 config/secrets.yml
+.DS_Store
+app/.DS_Store
+app/assets/.DS_Store
+app/assets/stylesheets/.DS_Store
