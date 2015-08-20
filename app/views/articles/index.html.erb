@@ -9,7 +9,9 @@
 </ul>
 
 <% if logged_in? %>
-  <%= link_to 'Create a New Article', new_article_path, class: 'new_article' %>
+  <br />
+  <p><%= link_to 'Create a New Article', new_article_path, class: 'new_article' %></p>
+  <p><%= link_to 'See all authors', authors_path %></p>
 <% end %>
 
 <br />

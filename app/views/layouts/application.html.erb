@@ -10,7 +10,14 @@
   <p class="flash">
     <%= flash.notice %>
   </p>
-
+  <div id="navbar">
+    <%= link_to 'Articles', articles_path %> |
+    <%= link_to 'Tags', tags_path %> 
+    <% if logged_in? %>
+      | <%= link_to 'Authors', authors_path %> |
+      <%= link_to 'Add Author', new_author_path %>
+    <% end %>
+  </div>
   <div id="container">
     <div id="content">
       <%= yield %>
