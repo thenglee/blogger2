@@ -34,5 +34,5 @@ This application demonstrates the following concepts using Ruby on Rails
 - Data Schema Migrations
 - HTTP Request Handling and Routing
 - Web Views with HTML forms, partials, and view helpers
-- Scaffold Controller
+- Using Rails generators (e.g. scaffold, scaffold_controller)
 - Using Ruby gems for additional functionality
